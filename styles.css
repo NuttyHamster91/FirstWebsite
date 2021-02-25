@@ -1,3 +1,42 @@
+* {
+    color: #333;
+}
+
 h1 {
-    color:rgb(20, 176, 20)
+    color: rgb(0, 180, 60);
+}
+
+body {
+    margin: 0 ;
+}
+
+.general {
+    margin: 0 0 0 20px;
+}
+
+
+
+
+.topnav {
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    color: #e7e7e7;
+    text-align: center;
+    padding: 15px 80px ;
+    text-decoration: none;
+    font size: 20px;
+}
+
+.topnav a:hover {
+    background-color: #666;
+}
+
+.topnav a.active {
+    background-color: rgb(0, 180, 60);
+    color: white;
 }

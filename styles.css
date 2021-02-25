@@ -15,6 +15,10 @@ body {
 }
 
 
+.gallery-image {
+    max-width: 30%;
+    height: auto;
+}
 
 .topnav {
     margin: 0;
@@ -38,9 +42,4 @@ body {
 .topnav .active {
     background-color: rgb(0, 180, 60);
     color: white;
-}
-
-.gallery-image {
-    max-width: 30%;
-    height: auto;
 }

@@ -16,8 +16,9 @@ body {
 
 
 .gallery-image {
-    max-width: 30%;
+    width: 500px;
     height: auto;
+    border-radius: 10px;
 }
 
 .topnav {

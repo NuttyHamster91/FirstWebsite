@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Simon Hammond - CSS Page</title>
-        <link rel="stylesheet" href="styles.css">
+        <title>Simon Hammond - Website No.1</title>
+        <!--6/2/21 - No CSS linked etc, Basic site - 25/02/21 CSS Linked-->
+        <link rel="stylesheet" href="css/styles.css">
         <link rel="icon" href="img/favicon.png" type="image/gif">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+        <script> 
+            $(function(){
+              $("#header").load("header.html"); 
+              $("#footer").load("footer.html"); 
+            });
+            </script> 
+        <style>.topnav .link3 {background-color:rgba(218, 188, 23, 0.5);color:white;}</style>
     </head>
     <body>
-        <div class="topnav">
-            <a href="index.html">Index</a>
-            <a href="gallery.html">Gallery</a>
-            <a class="active" href="csspage.html">CSS Page</a>
-        </div>
+        <!-- Load Header -->
+        <div id="header"></div>
+        <!-- Rest Of Body / Page -->
         <div class="general main-text-body">
             This page will eventually show some CSS tips and tricks I've learnt along the way.
         </div>
